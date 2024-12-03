@@ -21,6 +21,8 @@ private CourseDao _course;
 	public void saveCourse(Course course) {
 		// TODO Auto-generated method stub
 		_course.saveCourse(course);
+		//valor de password
+		System.out.printf("password123");
 	}
 
 	@Override
