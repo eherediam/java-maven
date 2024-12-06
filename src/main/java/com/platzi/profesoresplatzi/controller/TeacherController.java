@@ -57,8 +57,8 @@ public class TeacherController {
 			return new ResponseEntity<List<Teacher>>(teachers, HttpStatus.OK);
 		} else {
 			Teacher teacher = _teacherService.findByName(name);
-			String pass = "PASSWORD"
-			System.out.printf("pass", pass);	//es solo de prueba 
+			//String pass = "PASSWORD"
+			//System.out.printf("pass", pass);	//es solo de prueba 
 			if (teacher == null) {
 				return new ResponseEntity(HttpStatus.NOT_FOUND);
 			}
