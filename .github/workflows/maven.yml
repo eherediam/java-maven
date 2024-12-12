@@ -6,7 +6,7 @@ on:
 
 jobs:
   pipeline:
-    uses: eherediam/central-workflow/javaMaven@main
+    uses: eherediam/central-workflow/.github/workflows/maven.yml@main
     with:
       JAVA_VERSION: '17'
       DISTRIBUTION: 'temurin'
