@@ -1,6 +1,5 @@
-name: Java CI with Maven
-on:
-  workflow_dispatch:
+name: Java CI with wrapper
+on: workflow_dispatch
 
 jobs:
   pipeline:
