@@ -4,7 +4,7 @@ on:
 
 jobs:
   pipeline:
-    uses: eherediam/central-workflow/.github/workflows/javaMaven.yml@main
+    uses: eherediam/central-workflow/.github/workflows/javaMavenWrapper.yml@main
     with:
       JAVA_VERSION: '8'
       DISTRIBUTION: 'temurin'
